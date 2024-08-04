@@ -1,15 +1,16 @@
-# Radar Data Analysis
+## Radar Data Analysis
+
 This project performs radar data analysis using Py-ART, a Python library for weather radar data processing and visualization. The code demonstrates how to fetch radar data, visualize various fields, and perform statistical analysis and plotting.
 
 ## Table of Contents :
-1.Overview
-Requirements
-Setup
-Usage
-Results
-License
+1. Overview
+2. Requirements
+3. Setup
+4. Usage
+5. Results
+6. License
 
-# Overview:
+# 1. Overview:
 This script fetches radar data from a remote source, reads it using the Py-ART library, and performs several analyses including:
 
 Field Visualization: Plots various radar fields.
@@ -18,7 +19,7 @@ Statistical Summary: Computes and prints statistical metrics for reflectivity.
 Histogram Plot: Creates a histogram of reflectivity values.
 Composite Reflectivity: Generates and saves a composite reflectivity plot.
 
-# Requirements:
+# 2. Requirements:
 To run this code, you'll need the following Python packages:
 
 pyart - For radar data manipulation.
@@ -30,7 +31,7 @@ You can install these packages using pip:
 bash
 pip install pyart matplotlib pooch numpy
 
-# Setup:
+# 3. Setup:
 Clone the Repository:
 
 bash
@@ -46,7 +47,7 @@ Install Requirements:
 bash
 pip install pyart matplotlib pooch numpy
 
-Usage : 
+# 4. Usage : 
 
 Run the Script:
 
@@ -61,7 +62,7 @@ Check the Outputs:
 Plots: The script saves various plots to the /home/meetb/Downloads/ directory. Adjust the paths if necessary.
 Statistical Summary: The script prints statistical metrics for the reflectivity field to the console.
 
-# Results:
+# 5. Results:
 The script generates the following outputs:
 
 Reflectivity Field (First Sweep): radar_reflectivity.png
@@ -70,6 +71,6 @@ Sweeps Analysis: radar_reflectivity_sweep_X.png (where X is the sweep number)
 Histogram of Reflectivity: histogram_reflectivity.png
 Composite Reflectivity: composite_reflectivity.png
 
-# License :
+# 6. License :
 This project is licensed under the MIT License. See the LICENSE file for details.
 
