@@ -30,16 +30,19 @@ pooch - For data fetching and caching.
 numpy - For numerical operations.
 You can install these packages using pip:
 
-bash
+```bash
 pip install pyart matplotlib pooch numpy
+```
 
 ## 3. Setup:
 
 Clone the Repository:
 
-bash
+``` bash
 git clone https://github.com/your-username/radar-analysis.git
 cd radar-analysis
+```
+
 Create a Virtual Environment (Optional but recommended):
 
 bash
@@ -47,8 +50,9 @@ python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 Install Requirements:
 
-bash
+```bash
 pip install pyart matplotlib pooch numpy
+```
 
 ## 4. Usage : 
 
@@ -56,9 +60,9 @@ Run the Script:
 
 Save the provided Python code into a file named radar_analysis.py in your project directory. Execute the script using:
 
-bash
-
+```bash
 python radar_analysis.py
+```
 
 Check the Outputs:
 
